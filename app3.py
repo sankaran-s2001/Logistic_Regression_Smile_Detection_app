@@ -51,8 +51,8 @@ st.subheader("Quick Test Examples:")
 col1, col2 = st.columns(2)
 
 example_img_paths = {
-    "Smile": r"D:\Data Science Training\Bootcamp\DS_with_keerthi\ML\Logistic Regression\Project\Big smile image.jpg",
-    "No Smile": r"D:\Data Science Training\Bootcamp\DS_with_keerthi\ML\Logistic Regression\Project\Non smile image.jpg"
+    "Smile": "Big smile image.jpg",
+    "No Smile": "Non smile image.jpg"
 }
 
 with col1:
