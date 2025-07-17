@@ -1,6 +1,6 @@
 # 😊 SmileScan AI - Smile Detection App
 
-![App Screenshot](./assets/screenshot.png) <!-- Add your screenshot path -->
+![App Screenshot](./image.png) 
 
 A machine learning web application that detects smiles in facial images using logistic regression.
 
