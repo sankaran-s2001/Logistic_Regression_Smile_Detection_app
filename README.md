@@ -37,10 +37,10 @@ A machine learning web application that detects smiles in facial images using lo
 
 ### Model Architecture
 ```mermaid
-graph TD
-A[Raw Image] --> B[64×64 Resize]
-B --> C[Grayscale Conversion]
-C --> D[Flatten to Vector]
+graph LR
+A[Input Image] --> B[Resize to 64x64]
+B --> C[Convert to Grayscale]
+C --> D[Flatten to 4096 features]
 D --> E[Standard Scaling]
 E --> F[Logistic Regression]
-F --> G{{Smile Prediction}}
+F --> G[Prediction]
